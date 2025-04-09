@@ -77,7 +77,7 @@ const Hero = () => {
                 ) : (
                   <Image
                     src={heroMedia[currentMediaIndex]}
-                    alt="Bisley Base childcare"
+                    alt="Farnhurst Design & Construction"
                     fill
                     className="object-cover"
                     priority
@@ -113,23 +113,23 @@ const Hero = () => {
             className="max-w-3xl"
           >
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6 leading-tight">
-              Nurturing Little Minds at Bisley Base
+              Innovative Design & Construction Excellence
             </h1>
             <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              A nurturing preschool and wraparound care provider offering exceptional childcare in a stimulating environment
+              Creating exceptional spaces that inspire and endure through innovative design and expert construction
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Link 
-                href="/parents/admissions" 
-                className="px-6 py-3 bg-emerald-600 text-white font-medium rounded-md hover:bg-emerald-700 transition-colors duration-300 text-center"
+                href="/contact" 
+                className="px-6 py-3 bg-primary-600 text-white font-medium rounded-md hover:bg-primary-700 transition-colors duration-300 text-center"
               >
-                Enroll Now
+                Start Your Project
               </Link>
               <Link 
-                href="/contact" 
+                href="/projects" 
                 className="px-6 py-3 bg-white/20 backdrop-blur-sm text-white font-medium rounded-md hover:bg-white/30 transition-colors duration-300 text-center"
               >
-                Book a Tour
+                View Our Work
               </Link>
             </div>
           </motion.div>
