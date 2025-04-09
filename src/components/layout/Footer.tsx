@@ -156,6 +156,11 @@ export default function Footer() {
                   Terms of Service
                 </Link>
               </li>
+              <li>
+                <Link href="/sitemap" className="text-gray-300 hover:text-accent transition-colors">
+                  Sitemap
+                </Link>
+              </li>
             </ul>
           </motion.div>
           

@@ -13,15 +13,15 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Farnhurst | Design & Construction Excellence',
+  title: 'Farnhurst | Making Finance Work',
   description:
-    'Farnhurst delivers exceptional design and construction services, creating innovative spaces that inspire and endure. Specializing in architectural design, interior design, and project management.',
+    'Farnhurst Enterprises is an accounting consultancy dedicated to helping entrepreneurial clients grow in a profitable and cash generative way.',
   keywords:
-    'Farnhurst, architectural design, interior design, construction, project management, UK design services, bespoke design, commercial design, residential design',
+    'Farnhurst, accounting consultancy, finance director, business growth, cash flow management, financial systems, business advice, start-ups, high-growth companies, international business',
   openGraph: {
-    title: 'Farnhurst | Design & Construction Excellence',
+    title: 'Farnhurst | Making Finance Work',
     description:
-      'Farnhurst delivers exceptional design and construction services, creating innovative spaces that inspire and endure.',
+      'Farnhurst Enterprises provides flexible and cost effective Finance Director level support to help entrepreneurial clients grow in a profitable and cash generative way.',
     url: 'https://farnhurst.co.uk',
     siteName: 'Farnhurst',
     images: [
@@ -29,7 +29,7 @@ export const metadata: Metadata = {
         url: '/media/og-image.jpg',
         width: 1200,
         height: 630,
-        alt: 'Farnhurst Design & Construction',
+        alt: 'Farnhurst Enterprises',
       },
     ],
     locale: 'en_GB',
@@ -37,9 +37,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Farnhurst | Design & Construction Excellence',
+    title: 'Farnhurst | Making Finance Work',
     description:
-      'Farnhurst delivers exceptional design and construction services, creating innovative spaces that inspire and endure.',
+      'Farnhurst Enterprises provides flexible and cost effective Finance Director level support to help entrepreneurial clients grow in a profitable and cash generative way.',
     images: ['/media/og-image.jpg'],
   },
   robots: {
